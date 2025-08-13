@@ -7,7 +7,7 @@ load_dotenv()
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_KEY")
-BUCKET_NAME = os.getenv("BUCKET_NAME")
+BUCKET_NAME = os.getenv("BUCKET_NAMES")
 LOCAL_ROOT = os.getenv("LOCAL_ROOT")
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
