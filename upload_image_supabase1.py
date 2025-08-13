@@ -3,7 +3,6 @@ import re
 from dotenv import load_dotenv
 from supabase import create_client, Client
 
-# โหลดค่าใน .env
 load_dotenv()
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
