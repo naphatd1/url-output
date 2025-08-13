@@ -10,14 +10,22 @@
 
 ---
 
-## 📂 โครงสร้างโปรเจค
-url-supabase-picture/
-├── dl_url_supabase.py # สคริปต์หลัก
-├── requirements.txt # รายการ dependencies
-├── .env.example # ตัวอย่างไฟล์ Environment Variables
-├── uploads/ # เก็บไฟล์รูปภาพชั่วคราว
-├── output_csv/ # เก็บไฟล์ผลลัพธ์ CSV
-└── output_json/ # เก็บไฟล์ผลลัพธ์ JSON
+## โครงสร้างโฟลเดอร์
+```
+images/
+├── pic1/
+│   ├── 1.jpg
+│   ├── 2.jpg
+│   └── ...
+├── pic2/
+│   ├── 1.jpg
+│   ├── 2.jpg
+│   └── ...
+...
+├── pic40/
+│   ├── 1.jpg
+│   ├── 2.jpg
+```
 
 
 ## 📦 การติดตั้ง
